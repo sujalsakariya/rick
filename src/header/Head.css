@@ -1,0 +1,38 @@
+.nav img {
+    width: 40px;
+}
+
+.nav {
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.navbar-text p {
+    margin: 0;
+    cursor: pointer;
+}
+
+button {
+    font-weight: 700;
+    border: 1px solid rgb(255, 152, 0);
+    background-color: white;
+    padding: 7px 18px 5px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #FF9800;
+    color: white;
+    transition: 0.2s;
+}
